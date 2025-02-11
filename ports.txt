@@ -1,0 +1,28 @@
+
+    21 (FTP). File transfer protocol.
+    22 (SSH). Secure shell.
+    25 (SMTP). Simple mail transfer protocol.
+    53 (DNS). Domain name system.
+    67, 68 (DHCP). Dynamic host configuration protocol.
+    80 (HTTP). Hypertext transfer protocol.
+    110 (POP3). Post office protocol version 3.
+    123 (NTP). Network time protocol.
+    143 (IMAP). Internet access message protocol.
+    443 (HTTPS). Hypertext transfer protocol secure.
+    465 (SMTPS). SMTP secure.
+    631 (CUPS). Common Unix printing system.
+    993 (IMAPS). IMAP secure.
+    995 (POP3S). POP3 secure.
+    3306 (MySQL). MySQL database server.
+    3389 (RDP). Remote desktop protocol.
+    8080 (HTTP alternate). HTTP alternate, used for proxy servers.
+
+
+
+
+    open. The service on the associated port is active and listens for incoming connections. The port is available for connections.
+    closed. No service is listening on the port.
+    filtered. The port state is unknown. The port's status is concealed or restricted due to packet filtering, firewall rules.
+    unfiltered. The port state is unknown. The port is accessible and unrestricted but has no active service linked to it.
+    open|filtered. The port state is open or filtered.
+    closed|filtered. The port state is closed or filtered.
